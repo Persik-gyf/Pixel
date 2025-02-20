@@ -1,0 +1,67 @@
+.main{
+    
+    background-image: url();
+    height:800px;
+    text-align:center;
+    color:rgb(85,6,133);
+    background-repeat: no-repeat
+}
+    .text-main{
+        font-size:160px;
+    }
+    
+    .editor{
+    background-color: rgb(12,8,82);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    }
+    
+    .menu-editor{
+    margin-top: 20px;
+    display:grid;
+    min-height: 30px;
+    width:2px;
+    display: flex;
+    frex-direction:column;
+    gap:10px;}
+    
+    .button-color{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .button-color.red{
+        background-color: red;
+    }
+    .button-color.green{
+        background-color: green;
+    }
+    .button-color.blue{
+        background-color: blue;
+    }
+    .button-color.white{
+        background-color: white;
+    }
+    .button-color.yellow{
+        background-color: yellow;
+    }
+    .erase{
+        justify-content:center;
+    }
+    .filling{
+        justify-content: center;
+    }
+.save-file{
+        justify-content: center;
+}
+
+  .field{
+        width: 60px;
+        height: 30px;
+        display: grid;
+        grid-template-columns: repeat(30, 1px);
+        grid-template-rows: repat(15 , 1fr);
+        gap:100px;
+        background-color: rgb(126,86,163);
+    }
